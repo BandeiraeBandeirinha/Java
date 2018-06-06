@@ -21,6 +21,12 @@ public class CalculoMedia {
 		//saída
 		//+ concatena (junta) um texto com um conteudo da variavel média
 		System.out.println("Média final: " + media);
-	}
-
+		if (media <5) {
+		System.out.println("REPROVADO");	
+		} else {
+         System.out.println("APROVADO");
+		}
+		
+	}	
+	
 }
