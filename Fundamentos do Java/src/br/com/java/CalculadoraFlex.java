@@ -7,7 +7,7 @@ public class CalculadoraFlex {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		double gas, alc, result;
-		System.out.println("");
+		System.out.println("Calculadora FLEX");
 		System.out.print("Digite o valor do álcool: ");
 		alc = teclado.nextDouble();
 		System.out.print("Digite o valor da gasolina: ");
