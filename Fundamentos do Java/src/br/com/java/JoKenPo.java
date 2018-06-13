@@ -1,3 +1,9 @@
+/**
+ * Atividade JoKenPo
+ * @author Geovani , Sabrina , Victor Leite
+ * Data 06/13/2018
+ */
+
 package br.com.java;
 
 import java.util.Scanner;
@@ -6,9 +12,11 @@ import java.util.Random;
 public class JoKenPo {
 
 	public static void main(String[] args) {
-		int jogador;
+		char opcao;
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Trio do Geovani, Sabrina, Victor");
+		do {
+		int jogador, placar, player1 = 0, player2 = 0;
+		System.out.println("      ");
 		System.out.println("<><><>JoKenPo<><><>");
 		System.out.println("----------------------");
 		System.out.println("1. Pedra");
@@ -54,7 +62,7 @@ public class JoKenPo {
             System.out.println("Opção inválida");
             break;
         }
-        System.out.println("----------------------");
+        System.out.println("-------------------------------");
         if (jogador == 1 && maquina == 3 || jogador == 2 && maquina ==1 || jogador == 3 && maquina == 2)  {	
         	System.out.println("Jogador Venceu");
         } else if (maquina == 1 && jogador == 3 ||  maquina == 2 && jogador ==1 || maquina == 3 && jogador == 2) {
@@ -62,6 +70,12 @@ public class JoKenPo {
         } else {
         	System.out.println("Empate");
         }
+        System.out.println("-------------------------------");
+        System.out.println("__________PLACAR___________");
+        System.out.println(player1 + " X " + player2);
+        System.out.print("Deseja jogar novamente? (s/n) : ");
+		opcao = teclado.next().charAt(0);
+		}while (opcao == 's');
 	}
 
 	private static void Tesoura() {
@@ -70,8 +84,6 @@ public class JoKenPo {
 	}
 	private static void Pedra() {
 	}
-	
-	
 	
 	
 }
