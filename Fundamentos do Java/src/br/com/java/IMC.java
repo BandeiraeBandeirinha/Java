@@ -15,16 +15,6 @@ public class IMC {
 		altura = altura * altura;
 		result = peso / altura;
 		System.out.println("Seu índice de massa corporal: " + result);
-	if (result < 17) {
-	    System.out.println("Muito abaixo do peso");
-	} else if (result == 17 || result == 18,49 ) {
-		System.out.println("Abaixo do peso");
-	} else if (result ){
-		
 	}
 		
 	}
-
-	}
-
-}
