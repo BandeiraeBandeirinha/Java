@@ -15,7 +15,7 @@ public class JoKenPo {
 		char opcao;
 		Scanner teclado = new Scanner(System.in);
 		do {
-		int jogador, placar, player1 = 0, player2 = 0;
+		int jogador, player1 = 0, player2 = 0;
 		System.out.println("      ");
 		System.out.println("<><><>JoKenPo<><><>");
 		System.out.println("----------------------");
@@ -63,16 +63,19 @@ public class JoKenPo {
             break;
         }
         System.out.println("-------------------------------");
-        if (jogador == 1 && maquina == 3 || jogador == 2 && maquina ==1 || jogador == 3 && maquina == 2)  {	
+        if (jogador == 1 && maquina == 3 || jogador == 2 && maquina ==1 || jogador == 3 && maquina == 2) {	
         	System.out.println("Jogador Venceu");
+        	player1++;
         } else if (maquina == 1 && jogador == 3 ||  maquina == 2 && jogador ==1 || maquina == 3 && jogador == 2) {
         	System.out.println("Maquina Venceu");
+        	player2++;
         } else {
         	System.out.println("Empate");
         }
         System.out.println("-------------------------------");
         System.out.println("__________PLACAR___________");
         System.out.println(player1 + " X " + player2);
+        System.out.println("-------------------------------");
         System.out.print("Deseja jogar novamente? (s/n) : ");
 		opcao = teclado.next().charAt(0);
 		}while (opcao == 's');
