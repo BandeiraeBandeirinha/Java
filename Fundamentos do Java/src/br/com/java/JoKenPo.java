@@ -10,6 +10,8 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class JoKenPo {
+	
+	//jokenpo
 
 	public static void main(String[] args) {
 		char opcao;
