@@ -61,7 +61,7 @@ public class ChurrasColadora {
 		System.out.println("   ");
 		System.out.println("________________________________________");
 		System.out.println("Valor total do churrasco: R$ " + total);
-		System.out.printf("Valor por pessoa: R$" + "%.1f", pessoa);
+		System.out.printf("Valor por pessoa: R$ " + "%.1f", pessoa);
 
 	}
 
