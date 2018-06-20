@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class HoraDeServiço {
 
+	// nao ta funfando
 	public static void main(String[] args) {
 		double remuneracao, horas, custo, servico, estimativa, total;
 		Scanner teclado = new Scanner(System.in);
