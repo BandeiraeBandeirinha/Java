@@ -6,6 +6,7 @@ import java.util.Random;
 public class JogoDado {
 
 	public static void main(String[] args) {
+		// Portifólio
 		char opcao;
 		Scanner teclado = new Scanner(System.in);
 		do {

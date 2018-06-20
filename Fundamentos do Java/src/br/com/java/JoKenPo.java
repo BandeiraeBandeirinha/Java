@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class JoKenPo {
 	
-	//jokenpo
+	// Portifólio
 
 	public static void main(String[] args) {
 		char opcao;

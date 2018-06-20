@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CalculadoraFlex {
 
 	public static void main(String[] args) {
+		// Portifólio
 		Scanner teclado = new Scanner(System.in);
 		double gas, alc, result;
 		System.out.println("Calculadora FLEX");

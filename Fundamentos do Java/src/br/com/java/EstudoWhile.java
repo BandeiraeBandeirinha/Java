@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class EstudoWhile {
 
 	public static void main(String[] args) {
+		// Portifólio
 		int x = 11;
 		int y = 11;
 		//executa o laço enquanto a condição for verdadeira

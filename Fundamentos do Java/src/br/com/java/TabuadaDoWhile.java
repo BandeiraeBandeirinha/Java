@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TabuadaDoWhile {
 
 	public static void main(String[] args) {
+		// Portifólio
 		int y = 1;
 		int x; //Variável de apoio ao laço while
 		Scanner teclado = new Scanner(System.in);

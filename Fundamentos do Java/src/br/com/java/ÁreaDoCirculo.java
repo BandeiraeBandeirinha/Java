@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ÁreaDoCirculo {
 	
 	public static void main(String[] args) {
+		// Portifólio
 		Scanner teclado = new Scanner(System.in);
 		double area, pi, raio;
 		pi = 3.14;

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class VerificaMaioridade {
 
 	public static void main(String[] args) {
+		// Portifólio
 		String nome;
 		short idade;
 		Scanner teclado = new Scanner(System.in);

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CalculadoraLucro {
 
 	public static void main(String[] args) {
+		// Portifólio
 		double custo, lucro, venda;
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Calculadora do lucro");

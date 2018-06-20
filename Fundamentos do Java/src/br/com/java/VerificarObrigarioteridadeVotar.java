@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class VerificarObrigarioteridadeVotar {
 
 	public static void main(String[] args) {
+		// Portifólio
 		int idade;
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Verificar obrigatoriedade de votar");

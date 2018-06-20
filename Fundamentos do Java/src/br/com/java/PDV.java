@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PDV {
 
 	public static void main(String[] args) {
+		// Portifólio
 		double custo, desconto, total, troco;
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Calculadora de desconto");

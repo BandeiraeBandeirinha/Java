@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IMC {
 
 	public static void main(String[] args) {
+		// Portifólio
 		Scanner teclado = new Scanner (System.in);
 		double peso, altura , result;
 		System.out.println("Calculando o Índice de Massa Corporal");

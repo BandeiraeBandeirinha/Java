@@ -5,6 +5,7 @@ import java.util.Random;
 public class JogoCartas {
 
 	public static void main(String[] args) {
+		// Portifólio
 	Random carta  = new Random();
 	String[] nipes= {"♥" , "♦" , "♣" , "♠"};
     String[] faces= {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ConversorDeDolar {
 
 	public static void main(String[] args) {
+		// Portifólio
 		Scanner teclado = new Scanner(System.in);
 		double dolar, real;
 		dolar = 3.73;

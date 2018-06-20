@@ -3,6 +3,7 @@ package br.com.java;
 public class ArrayFundamentos {
 
 	public static void main(String[] args) {
+		// Portifólio
 		String time1 = "Corinthians";
 		String time2 = "Palmeiras";
 		String time3 = "Santos";

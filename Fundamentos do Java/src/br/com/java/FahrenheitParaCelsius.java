@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class FahrenheitParaCelsius {
 	
 	public static void main(String[] args) {
+		// Portifólio
 		Scanner teclado = new Scanner(System.in);
 		double f, c, resultado;
 		//Pedindo inserir o numero pelo teclado

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CalculoMedia {
 
 	public static void main(String[] args) {
+		// Portifólio
 		// a linha abaixo cria variaveis do tipo real
 		float nota1, nota2, media;
 		// entrada
